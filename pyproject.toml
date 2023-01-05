@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["implyujis <sakata.y@impl.co.jp>"]
+readme = "README.md"
+packages = [{include = "flask_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.2"
+pytest = "^7.2.0"
+coverage = "^7.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
